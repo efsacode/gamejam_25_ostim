@@ -1,0 +1,1817 @@
+fileFormatVersion: 2
+guid: 071e70dd277b2d042bec4a088dc85566
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9124968487553813529
+    second: endangered_animals_ilaria_lazzartotto_0
+  - first:
+      213: 5495300737000336660
+    second: endangered_animals_ilaria_lazzartotto_1
+  - first:
+      213: 5838508256622581689
+    second: endangered_animals_ilaria_lazzartotto_2
+  - first:
+      213: 3969487589511514842
+    second: endangered_animals_ilaria_lazzartotto_3
+  - first:
+      213: 571032189489229176
+    second: endangered_animals_ilaria_lazzartotto_4
+  - first:
+      213: 7009113940527290906
+    second: endangered_animals_ilaria_lazzartotto_5
+  - first:
+      213: -4706244906293143904
+    second: endangered_animals_ilaria_lazzartotto_6
+  - first:
+      213: 5768914023965555147
+    second: endangered_animals_ilaria_lazzartotto_7
+  - first:
+      213: 1264905264670907878
+    second: endangered_animals_ilaria_lazzartotto_8
+  - first:
+      213: -746974252657033497
+    second: endangered_animals_ilaria_lazzartotto_9
+  - first:
+      213: -2130928795499160373
+    second: endangered_animals_ilaria_lazzartotto_10
+  - first:
+      213: -1272481820085011876
+    second: endangered_animals_ilaria_lazzartotto_11
+  - first:
+      213: 8303861780256567191
+    second: endangered_animals_ilaria_lazzartotto_12
+  - first:
+      213: -4178087757923014591
+    second: endangered_animals_ilaria_lazzartotto_13
+  - first:
+      213: 2843815381737682852
+    second: endangered_animals_ilaria_lazzartotto_14
+  - first:
+      213: 3603885027884248930
+    second: endangered_animals_ilaria_lazzartotto_15
+  - first:
+      213: -3407592004433437195
+    second: endangered_animals_ilaria_lazzartotto_16
+  - first:
+      213: -679109285225135930
+    second: endangered_animals_ilaria_lazzartotto_17
+  - first:
+      213: 5100454845326166498
+    second: endangered_animals_ilaria_lazzartotto_18
+  - first:
+      213: -5292429269374651555
+    second: endangered_animals_ilaria_lazzartotto_19
+  - first:
+      213: 4854928182798037933
+    second: endangered_animals_ilaria_lazzartotto_20
+  - first:
+      213: 2692583669112385963
+    second: endangered_animals_ilaria_lazzartotto_21
+  - first:
+      213: -5292613671802956552
+    second: endangered_animals_ilaria_lazzartotto_22
+  - first:
+      213: 8243798261482474049
+    second: endangered_animals_ilaria_lazzartotto_23
+  - first:
+      213: 1670437835590489094
+    second: endangered_animals_ilaria_lazzartotto_24
+  - first:
+      213: -100075149485411397
+    second: endangered_animals_ilaria_lazzartotto_25
+  - first:
+      213: -1288469608816855273
+    second: endangered_animals_ilaria_lazzartotto_26
+  - first:
+      213: -1927505244540475103
+    second: endangered_animals_ilaria_lazzartotto_27
+  - first:
+      213: 8179844219617010913
+    second: endangered_animals_ilaria_lazzartotto_28
+  - first:
+      213: 2886121266257538177
+    second: endangered_animals_ilaria_lazzartotto_29
+  - first:
+      213: -5889023205132779782
+    second: endangered_animals_ilaria_lazzartotto_30
+  - first:
+      213: -5965408889057015982
+    second: endangered_animals_ilaria_lazzartotto_31
+  - first:
+      213: 8979070771396785490
+    second: endangered_animals_ilaria_lazzartotto_32
+  - first:
+      213: 3856322624267066918
+    second: endangered_animals_ilaria_lazzartotto_33
+  - first:
+      213: 5353945269282884604
+    second: endangered_animals_ilaria_lazzartotto_34
+  - first:
+      213: -3919216676366239651
+    second: endangered_animals_ilaria_lazzartotto_35
+  - first:
+      213: 4337481946261415486
+    second: endangered_animals_ilaria_lazzartotto_36
+  - first:
+      213: -3564114043233009843
+    second: endangered_animals_ilaria_lazzartotto_37
+  - first:
+      213: 4638734545541199121
+    second: endangered_animals_ilaria_lazzartotto_38
+  - first:
+      213: -1249301259261928727
+    second: endangered_animals_ilaria_lazzartotto_39
+  - first:
+      213: -6074525186556973709
+    second: endangered_animals_ilaria_lazzartotto_40
+  - first:
+      213: -3868891755167167840
+    second: endangered_animals_ilaria_lazzartotto_41
+  - first:
+      213: 6673886460285395638
+    second: endangered_animals_ilaria_lazzartotto_42
+  - first:
+      213: 7339241700926010696
+    second: endangered_animals_ilaria_lazzartotto_43
+  - first:
+      213: -1557876565965931579
+    second: endangered_animals_ilaria_lazzartotto_44
+  - first:
+      213: 3911557019026917987
+    second: endangered_animals_ilaria_lazzartotto_45
+  - first:
+      213: 7187632754920410587
+    second: endangered_animals_ilaria_lazzartotto_46
+  - first:
+      213: 1708020700491919289
+    second: endangered_animals_ilaria_lazzartotto_47
+  - first:
+      213: 8029374143126693415
+    second: endangered_animals_ilaria_lazzartotto_48
+  - first:
+      213: 7735306461001097976
+    second: endangered_animals_ilaria_lazzartotto_49
+  - first:
+      213: -8890374002205863000
+    second: endangered_animals_ilaria_lazzartotto_50
+  - first:
+      213: 5377592397133651021
+    second: endangered_animals_ilaria_lazzartotto_51
+  - first:
+      213: 1477636703474804641
+    second: endangered_animals_ilaria_lazzartotto_52
+  - first:
+      213: -2037682651073113270
+    second: endangered_animals_ilaria_lazzartotto_53
+  - first:
+      213: -755675010051932453
+    second: endangered_animals_ilaria_lazzartotto_54
+  - first:
+      213: -6946165857837806801
+    second: endangered_animals_ilaria_lazzartotto_55
+  - first:
+      213: -6862254210459931465
+    second: endangered_animals_ilaria_lazzartotto_56
+  - first:
+      213: 6784477928935642671
+    second: endangered_animals_ilaria_lazzartotto_57
+  - first:
+      213: -1413388556441324605
+    second: endangered_animals_ilaria_lazzartotto_58
+  - first:
+      213: -121093747995708274
+    second: endangered_animals_ilaria_lazzartotto_59
+  - first:
+      213: 7089740502337445012
+    second: endangered_animals_ilaria_lazzartotto_60
+  - first:
+      213: 5495588016654286415
+    second: endangered_animals_ilaria_lazzartotto_61
+  - first:
+      213: -4805466286579804831
+    second: endangered_animals_ilaria_lazzartotto_62
+  - first:
+      213: 1526157450374009363
+    second: endangered_animals_ilaria_lazzartotto_63
+  - first:
+      213: 4947233354285616710
+    second: endangered_animals_ilaria_lazzartotto_64
+  - first:
+      213: 2097143529726659792
+    second: endangered_animals_ilaria_lazzartotto_65
+  - first:
+      213: 6265995556931626073
+    second: endangered_animals_ilaria_lazzartotto_66
+  - first:
+      213: 2259415747735535427
+    second: endangered_animals_ilaria_lazzartotto_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_0
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 558
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c47474e7662ae70800000000000000
+      internalID: 9124968487553813529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_1
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 558
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41de8daa7ea334c40800000000000000
+      internalID: 5495300737000336660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 558
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b79c2e535c860150800000000000000
+      internalID: 5838508256622581689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_3
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 558
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adac7217ee3761730800000000000000
+      internalID: 3969487589511514842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_4
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 558
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87da1d930c6bce700800000000000000
+      internalID: 571032189489229176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 558
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a1e573eff554160800000000000000
+      internalID: 7009113940527290906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_6
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 558
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6d766413f00beb0800000000000000
+      internalID: -4706244906293143904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 454
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc97c326dbc4f0050800000000000000
+      internalID: 5768914023965555147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 454
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed1b3fe2a8dd8110800000000000000
+      internalID: 1264905264670907878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 454
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeb306ffd632a5f0800000000000000
+      internalID: -746974252657033497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 454
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc1f96fc8b6d62e0800000000000000
+      internalID: -2130928795499160373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 454
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ab0bac68c375ee0800000000000000
+      internalID: -1272481820085011876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 454
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fa22c1b4e3d3370800000000000000
+      internalID: 8303861780256567191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 454
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148279412537406c0800000000000000
+      internalID: -4178087757923014591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_14
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 452
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a73443c503477720800000000000000
+      internalID: 2843815381737682852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_15
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 454
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fa362b652930230800000000000000
+      internalID: 3603885027884248930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_16
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 454
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd984c402dc5b0d0800000000000000
+      internalID: -3407592004433437195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_17
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 454
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c08c7204b15396f0800000000000000
+      internalID: -679109285225135930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_18
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 454
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9069098a478c640800000000000000
+      internalID: 5100454845326166498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_19
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 454
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d533b08be938d86b0800000000000000
+      internalID: -5292429269374651555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_20
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 454
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3b5b1b57b206340800000000000000
+      internalID: 4854928182798037933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_21
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 454
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba13675c49afd5520800000000000000
+      internalID: 2692583669112385963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 347
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f41fce28ebdc86b0800000000000000
+      internalID: -5292613671802956552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 347
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a45af57dad76270800000000000000
+      internalID: 8243798261482474049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 347
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6045eb17c569e2710800000000000000
+      internalID: 1670437835590489094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_25
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 347
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3f3188e267c9ef0800000000000000
+      internalID: -100075149485411397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_26
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 347
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717b596a7bf6e1ee0800000000000000
+      internalID: -1288469608816855273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_27
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 347
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129667441302045e0800000000000000
+      internalID: -1927505244540475103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_28
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 347
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4ed44aaf4a48170800000000000000
+      internalID: 8179844219617010913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_29
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 347
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c2bf510009d0820800000000000000
+      internalID: 2886121266257538177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_30
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 347
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe3708a89cf54ea0800000000000000
+      internalID: -5889023205132779782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_31
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 347
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2578cc3b83c963da0800000000000000
+      internalID: -5965408889057015982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_32
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 347
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255b23e1b411c9c70800000000000000
+      internalID: 8979070771396785490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_33
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 347
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e9dbebef8648530800000000000000
+      internalID: 3856322624267066918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_34
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 347
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb4d722bd80d4a40800000000000000
+      internalID: 5353945269282884604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_35
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 347
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58376f92352c99c0800000000000000
+      internalID: -3919216676366239651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_36
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 347
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36e49269d4d13c30800000000000000
+      internalID: 4337481946261415486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_37
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 347
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f7d124929b98ec0800000000000000
+      internalID: -3564114043233009843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_38
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 347
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115f05afd78106040800000000000000
+      internalID: 4638734545541199121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_39
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 347
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea9e30bf1799aee0800000000000000
+      internalID: -1249301259261928727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 260
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dab1ce683f2bba0800000000000000
+      internalID: -6074525186556973709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 260
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aac2da627fee4ac0800000000000000
+      internalID: -3868891755167167840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_42
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 225
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2a99830686e9c50800000000000000
+      internalID: 6673886460285395638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 260
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845bd6821793ad560800000000000000
+      internalID: 7339241700926010696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_44
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 229
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbf1b9648f416ae0800000000000000
+      internalID: -1557876565965931579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_45
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 254
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a09cd6264a84630800000000000000
+      internalID: 3911557019026917987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_46
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 229
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd4efca8e99fb360800000000000000
+      internalID: 7187632754920410587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_47
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 254
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfa5d117cb14b710800000000000000
+      internalID: 1708020700491919289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_48
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 259
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726e5c1ed311e6f60800000000000000
+      internalID: 8029374143126693415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_49
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 229
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f221cc2e34595b60800000000000000
+      internalID: 7735306461001097976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_50
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 259
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3d62eb2fb0f9480800000000000000
+      internalID: -8890374002205863000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_51
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 262
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c1ef12bcb01aa40800000000000000
+      internalID: 5377592397133651021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_52
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 262
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7e1b1c0ce918410800000000000000
+      internalID: 1477636703474804641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_53
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 139
+        width: 100
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a439fc9cc62b8b3e0800000000000000
+      internalID: -2037682651073113270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_54
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 207
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdef634059d4385f0800000000000000
+      internalID: -755675010051932453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_55
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 139
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b81a464f24a9f90800000000000000
+      internalID: -6946165857837806801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_56
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 207
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc6b13472064c0a0800000000000000
+      internalID: -6862254210459931465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_57
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 139
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26dfac0bbe472e50800000000000000
+      internalID: 6784477928935642671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_58
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 207
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c376bba892a26ce0800000000000000
+      internalID: -1413388556441324605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_59
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 139
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84f136b0e9c15ef0800000000000000
+      internalID: -121093747995708274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_60
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 206
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cd58f7c61d36260800000000000000
+      internalID: 7089740502337445012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_61
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 139
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e729c2f20444c40800000000000000
+      internalID: 5495588016654286415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_62
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 206
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1659b407fdd8f4db0800000000000000
+      internalID: -4805466286579804831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_63
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 139
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312dbdc7d100e2510800000000000000
+      internalID: 1526157450374009363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_64
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 205
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e882f268a18a440800000000000000
+      internalID: 4947233354285616710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_65
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 139
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dccd5cddec8a1d10800000000000000
+      internalID: 2097143529726659792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_66
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 205
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954e517a2c945f650800000000000000
+      internalID: 6265995556931626073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endangered_animals_ilaria_lazzartotto_67
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 78
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f33b3d6ae0b5f10800000000000000
+      internalID: 2259415747735535427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
