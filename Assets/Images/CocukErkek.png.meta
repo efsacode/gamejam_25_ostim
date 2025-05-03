@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CocukErkek_0: -3779321612349667067
+      CocukErkek_1: -4983097949965649616
+      CocukErkek_2: 396976736382765253
+      CocukErkek_3: -86636114065068621
+      CocukErkek_4: 3257146811009263853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

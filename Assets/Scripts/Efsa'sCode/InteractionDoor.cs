@@ -17,26 +17,30 @@ public class InteractionDoor : MonoBehaviour
             Color color = interactSprite.color;
             color.a = 0f;
             interactSprite.color = color;
-            interactSprite.gameObject.SetActive(false); // Sprite başta görünmesin
+            //interactSprite.gameObject.SetActive(false); // Sprite başta görünmesin
         }
     }
 
     void Update()
     {
-        if (isInTrigger && Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonDown(0))
         {
-            if (dimObject != null)
+            Debug.Log("e ye btim");
+            if (isInTrigger)
             {
-                if (!dimObject.activeSelf)
+                if (dimObject != null)
                 {
-                    dimObject.SetActive(true); // Objeyi etkinleştir
-                    StartFadeOut();
-                } // E'ye basılınca sprite'ı gizle
+                    if (!dimObject.activeSelf)
+                    {
+                        dimObject.SetActive(true); // Objeyi etkinleştir
+                        StartFadeOut();
+                    } // E'ye basılınca sprite'ı gizle
 
-                else if (dimObject.activeSelf)
-                {
-                    dimObject.SetActive(false);
-                    StartFadeOut();
+                    else if (dimObject.activeSelf)
+                    {
+                        dimObject.SetActive(false);
+                        StartFadeOut();
+                    }
                 }
             }
         }
@@ -48,7 +52,10 @@ public class InteractionDoor : MonoBehaviour
         {
             isInTrigger = true;
             StartFadeIn(); // Oyuncu alanın içine girdiğinde sprite'ı göster
+            Debug.Log("player in triggerenter.");
         }
+        else
+            Debug.Log("not player in triggerenter.");
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -57,7 +64,10 @@ public class InteractionDoor : MonoBehaviour
         {
             isInTrigger = false;
             StartFadeOut(); // Oyuncu alandan çıktığında sprite'ı gizle
+            Debug.Log("player in triggerenter.");
         }
+        else
+            Debug.Log("not player in triggerenter.");
     }
 
     private void StartFadeIn()
@@ -67,7 +77,7 @@ public class InteractionDoor : MonoBehaviour
         interactSprite.gameObject.SetActive(true); // Sprite'ı görünür yap
         if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
         fadeCoroutine = StartCoroutine(FadeSprite(interactSprite, 0f, 1f, 0.5f));
-         
+
     }
 
     private void StartFadeOut()
@@ -76,7 +86,7 @@ public class InteractionDoor : MonoBehaviour
 
         if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
         fadeCoroutine = StartCoroutine(FadeSprite(interactSprite, interactSprite.color.a, 0f, 0.5f)); // 0.5 saniye içinde gizle
-        
+
     }
 
     private IEnumerator FadeSprite(SpriteRenderer sprite, float startAlpha, float endAlpha, float duration)

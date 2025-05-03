@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Game Buttons Instructions_0: -5949860727246064053
+      Game Buttons Instructions_1: -5830632106516362081
+      Game Buttons Instructions_10: -2844786011367225162
+      Game Buttons Instructions_2: 8842102393166824817
+      Game Buttons Instructions_3: -5365065429242470952
+      Game Buttons Instructions_4: 7625379323098673968
+      Game Buttons Instructions_5: -3502784114471633204
+      Game Buttons Instructions_6: -1757919981419773315
+      Game Buttons Instructions_7: -2120686399906068124
+      Game Buttons Instructions_8: 2592998600922247921
+      Game Buttons Instructions_9: 7819717134101866419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
