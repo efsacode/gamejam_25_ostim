@@ -63,9 +63,9 @@ namespace Platformer.Mechanics
 
         protected override void Update()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.anyKeyDown)
             {
-                Debug.Log("Left click detected!");
+                Debug.Log("Some key pressed");
             }
             if (controlEnabled)
             {
