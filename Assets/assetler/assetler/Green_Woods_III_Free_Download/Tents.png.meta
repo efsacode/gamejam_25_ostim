@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tents_0: 643645115921683493
+      Tents_1: -8038001218310726858
+      Tents_2: 7079025666374799206
+      Tents_3: -8213362364964589203
+      Tents_4: -7334810911669745368
+      Tents_5: -4925877420089872468
+      Tents_6: 7379123157466597646
+      Tents_7: -8578273726886940135
+      Tents_8: -6144478930536633312
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
