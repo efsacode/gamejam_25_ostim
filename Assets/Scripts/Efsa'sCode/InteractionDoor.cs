@@ -23,6 +23,8 @@ public class InteractionDoor : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Update çalışıyor"); // Bunu test için ekle
+
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("e ye btim");
@@ -33,13 +35,13 @@ public class InteractionDoor : MonoBehaviour
                     if (!dimObject.activeSelf)
                     {
                         dimObject.SetActive(true); // Objeyi etkinleştir
-                        StartFadeOut();
+                        //StartFadeOut();
                     } // E'ye basılınca sprite'ı gizle
 
                     else if (dimObject.activeSelf)
                     {
                         dimObject.SetActive(false);
-                        StartFadeOut();
+                        //StartFadeOut();
                     }
                 }
             }
@@ -51,7 +53,7 @@ public class InteractionDoor : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isInTrigger = true;
-            StartFadeIn(); // Oyuncu alanın içine girdiğinde sprite'ı göster
+            //StartFadeIn(); // Oyuncu alanın içine girdiğinde sprite'ı göster
             Debug.Log("player in triggerenter.");
         }
         else
@@ -63,7 +65,7 @@ public class InteractionDoor : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isInTrigger = false;
-            StartFadeOut(); // Oyuncu alandan çıktığında sprite'ı gizle
+            //StartFadeOut(); // Oyuncu alandan çıktığında sprite'ı gizle
             Debug.Log("player in triggerenter.");
         }
         else
