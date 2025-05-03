@@ -10,6 +10,8 @@ public class trigerevent : MonoBehaviour
     public int character;
     public List<string> Dialog = new();
     public List<int> Indexes = new();
+    public List<float> endwaittimes;
+    public List<GameObject> Buttons = new();
     void Start()
     {
         
@@ -24,11 +26,15 @@ public class trigerevent : MonoBehaviour
     {
         if (other.gameObject.name.Contains("Player") && !done) 
         {
-            for(int i = 0; i < Dialog.Count; i++)
+            Debug.Log("collider2d");
+            for (int i = 0; i < Dialog.Count; i++)
             {
-                speak.speak(Indexes[i], Dialog[i]);
+                if (Dialog[i].Contains('/'))
+                    speak.speak(Indexes[i], Dialog[i], endwaittimes[i], Buttons);
+                else
+                    speak.speak(Indexes[i], Dialog[i], endwaittimes[i], null);
             }
+            done = true;
         }
     }
-
 }
