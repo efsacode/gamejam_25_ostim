@@ -63,10 +63,6 @@ namespace Platformer.Mechanics
 
         protected override void Update()
         {
-            if (Input.anyKeyDown)
-            {
-                Debug.Log("Some key pressed");
-            }
             if (controlEnabled)
             {
                 move.x = m_MoveAction.ReadValue<Vector2>().x;

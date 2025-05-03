@@ -14,9 +14,11 @@ public class Speak : MonoBehaviour
     public List<GameObject> CharactersUi = new();
     public List<GameObject> Buttons = new();
     public PlayerController player;
-
+    private List<GameObject> Buttons_dandikkodumuduzeltmekicin = new();
     public TextMeshProUGUI speechtext;
     public GameObject canvas;
+
+    public List<bool> variables = new();
 
     private List<string> Dialog = new();
     private List<int> Indexes = new();
@@ -40,7 +42,7 @@ public class Speak : MonoBehaviour
             player.controlEnabled = false;
             if (!isSpeaking)
             {
-                //Debug.Log("startcoroutine");
+                //////Debug.Log("startcoroutine");
                 StartCoroutine(speaktask());
                 isSpeaking = true;
             }
@@ -64,21 +66,21 @@ public class Speak : MonoBehaviour
         string text = Dialog[0];
         int index = Indexes[0];
         float waittime = endwaittimes[0];
-        //Debug.Log("speaktask");
+        //////Debug.Log("speaktask");
         CharactersUi[index].SetActive(true);
         canvas.SetActive(true);
         float pluspitch = Pitches[index];
         GameObject audioprefab = Sounds[index];
-        //Debug.Log("foroncesi");
+        //////Debug.Log("foroncesi");
         for (int i = 0; i < text.Length; i++)
         {
             yield return null;
-            //Debug.Log("yenikod");
+            //////Debug.Log("yenikod");
             if (!(text[i] == '/'))
                 speechtext.text += text[i];
             else
             {
-                //Debug.Log("yenikod else");
+                ////Debug.Log("yenikod else");
                 waitforbutton = true;
                 for (int b = 0; b < Buttons.Count; b++)
                 {
@@ -86,7 +88,7 @@ public class Speak : MonoBehaviour
                     
                 }
             }
-            //Debug.Log("ifustu");
+            ////Debug.Log("ifustu");
             //Time.timeScale = 0;
             if (seslistesi.Contains(text[i])) // Check if the character is a vowel
             {
@@ -111,26 +113,35 @@ public class Speak : MonoBehaviour
             {
                 yield return new WaitForSecondsRealtime(0.4f);
             }
-            //Debug.Log("whileoncesi");
+            ////Debug.Log("whileoncesi");
             while (waitforbutton) { 
                 yield return null;
                 //Debug.Log("here");
+                if(Buttons != null)
+                    Buttons_dandikkodumuduzeltmekicin = Buttons;
             }
-            //Debug.Log("lastif");
-            if (Buttons != null)
+            ////Debug.Log("lastif");
+            //Debug.Log(Buttons);
+            if (Buttons_dandikkodumuduzeltmekicin != null)
             {
-                for (int b = 0; b < Buttons.Count; b++)
+
+                if (text[i] == '/')
                 {
-                    Buttons[b].SetActive(false);
-                    yield return null;
-                    //Debug.Log("yenikodforalt");
+                    //Debug.Log($"Buton deaktif {Buttons_dandikkodumuduzeltmekicin.Count}");
+                    for (int b = 0; b < Buttons_dandikkodumuduzeltmekicin.Count; b++)
+                    {
+                        Buttons_dandikkodumuduzeltmekicin[b].SetActive(false);
+                        yield return null;
+
+                    }
                 }
+                Buttons_dandikkodumuduzeltmekicin = null;
             }
 
         }
         //Time.timeScale = 1;
         yield return new WaitForSeconds(waittime);
-        //Debug.Log("biris");
+        ////Debug.Log("biris");
         CharactersUi[index].SetActive(false);
         Dialog.RemoveAt(0);
         Indexes.RemoveAt(0);
@@ -145,9 +156,27 @@ public class Speak : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.3f);
         Destroy(target);
     }
-    public void buttontest()
+    public void buttontest(int index)
     {
+        variables[index] = true;
         waitforbutton = false;
+        //Debug.Log($"konusuyorum{index}, test:{isSpeaking}");
+        switch (index)
+        {
+            case (0):
+                speak(3, "Tesekkür ederim. Sana büyük borçlanırım.", 1.5f);
+                speak(3, "İlerideki eski kulenin içinde olduğunu duymuştum. Oraya bak.", 1.5f);
+                speak(0, "Allah Razı Olsun Mehmet abi teşekkür ederim", 2f);
+
+                break;
+            case (1):
+                speak(3, "Tamam be ierideki kulenin içinde diye duydum", 1.5f);
+                speak(3, "Bana da getireceksin değil mi?", 1.5f);
+                speak(0, "Aynen aynen getircem abi.", 2f);
+                speak(3, "Yalancı...", 1.5f);
+
+                break;
+        }
     }
 
 }
