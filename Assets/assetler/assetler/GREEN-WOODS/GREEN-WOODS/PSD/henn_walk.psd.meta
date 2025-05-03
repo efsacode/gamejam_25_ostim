@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      henn_walk_0: 3733061260195444679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

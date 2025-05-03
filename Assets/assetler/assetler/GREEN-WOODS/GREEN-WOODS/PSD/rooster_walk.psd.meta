@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rooster_walk_0: 1764761106143014672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

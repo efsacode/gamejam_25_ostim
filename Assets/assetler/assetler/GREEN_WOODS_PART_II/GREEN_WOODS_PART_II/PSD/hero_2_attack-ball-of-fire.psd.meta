@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hero_2_attack-ball-of-fire_0: -3841685050643404580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

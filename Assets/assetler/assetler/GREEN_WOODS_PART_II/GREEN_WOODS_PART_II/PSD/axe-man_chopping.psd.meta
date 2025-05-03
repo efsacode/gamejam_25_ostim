@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      axe-man_chopping_0: 8922887676711164657
+      axe-man_chopping_1: 5453094291939959099
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

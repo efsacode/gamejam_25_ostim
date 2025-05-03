@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wolf_0: -458185587419916677
+      Wolf_1: -5547194825390550217
+      Wolf_10: 1931046830726773370
+      Wolf_11: 5053179653577929093
+      Wolf_12: -3112195067975180470
+      Wolf_13: 6257932743403368881
+      Wolf_14: -646909099640243086
+      Wolf_15: 4894625464057909285
+      Wolf_16: -568028469627883041
+      Wolf_2: 6891357095817125983
+      Wolf_3: 2672853027243246175
+      Wolf_4: -6079965141102547391
+      Wolf_5: -6983649135101308852
+      Wolf_6: 5184831053750644559
+      Wolf_7: 4345086733073366625
+      Wolf_8: 1575559808605154654
+      Wolf_9: -5063944184051285002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

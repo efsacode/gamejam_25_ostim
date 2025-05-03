@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Green_Woods_I_candle_2_0: 1656773594588904626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

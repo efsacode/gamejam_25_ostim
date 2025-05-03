@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      henn_eat_0: -7886653277068157732
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
