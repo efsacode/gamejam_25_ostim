@@ -13,7 +13,9 @@ public class Speak : MonoBehaviour
     public List<float> Pitches = new();
     public List<GameObject> CharactersUi = new();
     public List<GameObject> Buttons = new();
+    public List<GameObject> Buttonhold = new();
     public PlayerController player;
+    public List<bool> buttonvalues = new();
 
     public TextMeshProUGUI speechtext;
     public GameObject canvas;
@@ -112,25 +114,23 @@ public class Speak : MonoBehaviour
                 yield return new WaitForSecondsRealtime(0.4f);
             }
             //Debug.Log("whileoncesi");
+            if(Buttons != null)
+                Buttonhold = Buttons;
             while (waitforbutton) { 
                 yield return null;
-                //Debug.Log("here");
             }
-            //Debug.Log("lastif");
-            if (Buttons != null)
+            if (Buttonhold != null)
             {
-                for (int b = 0; b < Buttons.Count; b++)
+                for (int b = 0; b < Buttonhold.Count; b++)
                 {
-                    Buttons[b].SetActive(false);
+                    Buttonhold[b].SetActive(false);
                     yield return null;
-                    //Debug.Log("yenikodforalt");
                 }
+                Buttonhold = null;
             }
 
         }
-        //Time.timeScale = 1;
         yield return new WaitForSeconds(waittime);
-        //Debug.Log("biris");
         CharactersUi[index].SetActive(false);
         Dialog.RemoveAt(0);
         Indexes.RemoveAt(0);
@@ -145,9 +145,26 @@ public class Speak : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.3f);
         Destroy(target);
     }
-    public void buttontest()
+    public void buttontest(int index)
     {
+        buttonvalues[index] = true;
         waitforbutton = false;
+
+        switch (index)
+        {
+            case (0):
+                speak(3, "Teşekkür ederim.", 1);
+                speak(3, "İlacı ilerideki kulenin içinden bulabilirsin.", 2);
+                speak(0, "Teşekkür ederim.", 1);
+                speak(0, "Hemen almaya gidiyorum", 1);
+                break;
+            case (1):
+                speak(3, "tamam be. ilaç ilerideki kulenin içinde diye duydum.", 1);
+                speak(3, "bana da getireceksin dimi?", 2);
+                speak(0, "tabiki abi getircem.", 1);
+                speak(3, "yalancı...", 1);
+                break;
+        }
     }
 
 }
