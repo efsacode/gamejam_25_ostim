@@ -17,6 +17,7 @@ public class TowerInside : MonoBehaviour
 
     public bool isInTrigger = false;
     private Coroutine fadeCoroutine;
+    bool clicked = false;
 
     void Start()
     {
@@ -32,10 +33,11 @@ public class TowerInside : MonoBehaviour
 
     void Update()
     {
-        if (isInTrigger && Input.GetKeyDown(KeyCode.E))
+        if (isInTrigger && Input.GetKeyDown(KeyCode.E) && !clicked)
         {
             if (dimObject != null)
             {
+                clicked = true;
                 //if (!dimObject.activeSelf)
                 /*{
                     dimObject.SetActive(true); // Objeyi etkinleþtir
@@ -67,6 +69,7 @@ public class TowerInside : MonoBehaviour
                         deaktif[i].SetActive(false);
                     }
                 }
+
             }
         }
     }
