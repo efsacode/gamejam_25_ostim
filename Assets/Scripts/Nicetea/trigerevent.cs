@@ -1,9 +1,15 @@
+using System.Collections.Generic;
+using NUnit.Framework;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class trigerevent : MonoBehaviour
 {
     bool done = false;
     public Speak speak;
+    public int character;
+    public List<string> Dialog = new();
+    public List<int> Indexes = new();
     void Start()
     {
         
@@ -18,10 +24,10 @@ public class trigerevent : MonoBehaviour
     {
         if (other.gameObject.name.Contains("Player") && !done) 
         {
-            Debug.Log("Entered trigger zone!");
-            speak.speak(0, "buraya girdim");
-            //done = true;
-
+            for(int i = 0; i < Dialog.Count; i++)
+            {
+                speak.speak(Indexes[i], Dialog[i]);
+            }
         }
     }
 

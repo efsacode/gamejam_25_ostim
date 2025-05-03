@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 7615b681437796343ab66dc84fa9a745
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1415790569210430169
+    second: Woodman+Fisherman_0
+  - first:
+      213: -2476224521375604803
+    second: Woodman+Fisherman_1
+  - first:
+      213: -3175887971679757366
+    second: Woodman+Fisherman_2
+  - first:
+      213: 413196290710999933
+    second: Woodman+Fisherman_3
+  - first:
+      213: 5156484106827509312
+    second: Woodman+Fisherman_4
+  - first:
+      213: -6245191247650862293
+    second: Woodman+Fisherman_5
+  - first:
+      213: -4480661351244675648
+    second: Woodman+Fisherman_6
+  - first:
+      213: 4360580904872906032
+    second: Woodman+Fisherman_7
+  - first:
+      213: -3410635549629501415
+    second: Woodman+Fisherman_8
+  - first:
+      213: 8329428666741295120
+    second: Woodman+Fisherman_9
+  - first:
+      213: -2251423375055855435
+    second: Woodman+Fisherman_10
+  - first:
+      213: 4558173828590004583
+    second: Woodman+Fisherman_11
+  - first:
+      213: -4759256451779462194
+    second: Woodman+Fisherman_12
+  - first:
+      213: 1913744704071914926
+    second: Woodman+Fisherman_13
+  - first:
+      213: -5038119562958524363
+    second: Woodman+Fisherman_14
+  - first:
+      213: 3789484609320914827
+    second: Woodman+Fisherman_15
+  - first:
+      213: -3952228489964949165
+    second: Woodman+Fisherman_16
+  - first:
+      213: -8251468015204202444
+    second: Woodman+Fisherman_17
+  - first:
+      213: 7334474957812589746
+    second: Woodman+Fisherman_18
+  - first:
+      213: -4991504270341489142
+    second: Woodman+Fisherman_19
+  - first:
+      213: 6433577616512907639
+    second: Woodman+Fisherman_20
+  - first:
+      213: 7995671605674402412
+    second: Woodman+Fisherman_21
+  - first:
+      213: -3094794559097799937
+    second: Woodman+Fisherman_22
+  - first:
+      213: 6615077458116180970
+    second: Woodman+Fisherman_23
+  - first:
+      213: 4898911845107101551
+    second: Woodman+Fisherman_24
+  - first:
+      213: 5976557029459217991
+    second: Woodman+Fisherman_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Woodman+Fisherman_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 184
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2c2228506e5a310800000000000000
+      internalID: 1415790569210430169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 183
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf9b4bdaeea2add0800000000000000
+      internalID: -2476224521375604803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 183
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb979167bafce3d0800000000000000
+      internalID: -3175887971679757366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 184
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73965256d7fbb500800000000000000
+      internalID: 413196290710999933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 183
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ea66599f28f8740800000000000000
+      internalID: 5156484106827509312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 184
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b446116af9459a0800000000000000
+      internalID: -6245191247650862293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 183
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c54d389d3e71d1c0800000000000000
+      internalID: -4480661351244675648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 184
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d0d49ca35e38c30800000000000000
+      internalID: 4360580904872906032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 183
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910b306b90dfaa0d0800000000000000
+      internalID: -3410635549629501415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_9
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 184
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018021fbd33189370800000000000000
+      internalID: 8329428666741295120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 183
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0e8c27e5651c0e0800000000000000
+      internalID: -2251423375055855435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_11
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 184
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769e69562f2e14f30800000000000000
+      internalID: 4558173828590004583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_12
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 183
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbf2b40979b3fdb0800000000000000
+      internalID: -4759256451779462194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 78
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5ddfc3bacfe8a10800000000000000
+      internalID: 1913744704071914926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 87
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53039e953f0051ab0800000000000000
+      internalID: -5038119562958524363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_15
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 78
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f0264bc24f69430800000000000000
+      internalID: 3789484609320914827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_16
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 87
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351f570d02dd629c0800000000000000
+      internalID: -3952228489964949165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 78
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438814eee85ec7d80800000000000000
+      internalID: -8251468015204202444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 87
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4ea6a4d1a49c560800000000000000
+      internalID: 7334474957812589746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_19
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 78
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e337fef4d9abab0800000000000000
+      internalID: -4991504270341489142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_20
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 87
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779f72371c8a84950800000000000000
+      internalID: 6433577616512907639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 75
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6266e466f456fe60800000000000000
+      internalID: 7995671605674402412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_22
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 75
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaf924deb41d05d0800000000000000
+      internalID: -3094794559097799937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 75
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb75b466e97dcb50800000000000000
+      internalID: 6615077458116180970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_24
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 75
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fef891e5e6cf340800000000000000
+      internalID: 4898911845107101551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodman+Fisherman_25
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 22
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ec7c004fef0f250800000000000000
+      internalID: 5976557029459217991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
