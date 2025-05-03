@@ -63,6 +63,10 @@ namespace Platformer.Mechanics
 
         protected override void Update()
         {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("Left click detected!");
+            }
             if (controlEnabled)
             {
                 move.x = m_MoveAction.ReadValue<Vector2>().x;
