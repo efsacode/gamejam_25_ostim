@@ -72,6 +72,25 @@ public class Speak : MonoBehaviour
         float pluspitch = Pitches[index];
         GameObject audioprefab = Sounds[index];
         //Debug.Log("foroncesi");
+        if (text.Contains(";"))
+        {
+            audioprefab = Sounds[Sounds.Count-1];
+            GameObject audio = Instantiate(audioprefab);
+            AudioSource tempaudio = audio.GetComponent<AudioSource>();
+
+            tempaudio.Play();
+            CharactersUi[index].SetActive(false);
+            Dialog.RemoveAt(0);
+            Indexes.RemoveAt(0);
+            endwaittimes.RemoveAt(0);
+            speechtext.text = "";
+            isSpeaking = false;
+            canvas.SetActive(false);
+
+            yield return new WaitForSeconds(1);
+            yield break;
+        }
+
         for (int i = 0; i < text.Length; i++)
         {
             yield return null;
@@ -162,6 +181,25 @@ public class Speak : MonoBehaviour
                 speak(3, "Tepedeki kulede merhem var. Ama bana da getir, anlaşmamız bu kadar.", 1);
                 
                 break;
+            case (4):
+                speak(3, "Güzel...", 1);
+                speak(3, "İlaçları bana verir misin?", 2);
+                speak(0, "Kızımın ilaca ihtiyacı var veremem", 1);
+                speak(3, "Kızın...", 1);
+                speak(3, "Artık ilaca ihtiyacı yok sanırım.", 1);
+                speak(0, "Ne.. Na-. Nasıl yani?", 1);
+                speak(3, "İçeri girip kendin bak.", 2);
+                break;
+            case (5):
+                speak(3, "Hmm... İlaç olmaması kötü olmuş.", 1);
+                speak(3, "Ama üzülmene gerek yok.", 2);
+                speak(3, "Artık ilaca ihiyacın kalmadı", 1);
+                speak(0, "Ne.. Na-. Nasıl yani?", 1);
+                speak(3, "İçeri girip kendin bak.", 2);
+                speak(3, "Bu arada", 2);
+                speak(3, "Yalan söylemek hiç hoş değil.", 1);
+                break;
+
         }
     }
 

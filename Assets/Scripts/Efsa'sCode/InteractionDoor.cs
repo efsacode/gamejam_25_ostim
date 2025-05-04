@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using OpenCover.Framework.Model;
+using System.Threading;
 
 public class InteractionDoor : MonoBehaviour
 {
@@ -7,7 +9,9 @@ public class InteractionDoor : MonoBehaviour
     public SpriteRenderer interactSprite; // Sprite objesini temsil eden SpriteRenderer
 
     private bool isInTrigger = false;
+    public int partindex = 0;
     private Coroutine fadeCoroutine;
+    private GameObject player;
 
     void Start()
     {
@@ -28,19 +32,26 @@ public class InteractionDoor : MonoBehaviour
         {
             if (isInTrigger)
             {
-                if (dimObject != null)
-                {
-                    if (!dimObject.activeSelf)
+                if(partindex == 0) { 
+                    if (dimObject != null)
                     {
-                        dimObject.SetActive(true); // Objeyi etkinleştir
-                        //StartFadeOut();
-                    } // E'ye basılınca sprite'ı gizle
+                        if (!dimObject.activeSelf)
+                        {
+                            dimObject.SetActive(true); // Objeyi etkinleştir
+                            //StartFadeOut();
+                        } // E'ye basılınca sprite'ı gizle
 
-                    else if (dimObject.activeSelf)
-                    {
-                        dimObject.SetActive(false);
-                        //StartFadeOut();
+                        else if (dimObject.activeSelf)
+                        {
+                            dimObject.SetActive(false);
+                            //StartFadeOut();
+                        }
                     }
+                }
+                else if(partindex == 1)
+                {
+                    player.SetActive(false);
+                    StartCoroutine(pt2_1Woodman());
                 }
             }
 
@@ -48,10 +59,37 @@ public class InteractionDoor : MonoBehaviour
         }
     }
 
+    IEnumerator pt2_1Woodman()
+    {
+        yield return null;
+        GameObject woodman = GameObject.Find("Baltacipt2_1");
+        woodman.GetComponent<SpriteRenderer>().flipX = false;
+        float walktimer = 0;
+        Vector2 startpos = woodman.transform.position;
+        //Vector2 target = new Vector2(-84.02f, 1.5f);
+        while(walktimer < 0.5f)
+        {
+            woodman.transform.position = Vector2.Lerp(startpos, this.transform.position, (walktimer * 2f));
+            yield return null;
+            walktimer += Time.deltaTime;
+        }
+        yield return new WaitForSeconds(0.5f);
+        woodman.SetActive(false);
+        Speak speak = GameObject.Find("TalkingObject").GetComponent<Speak>();
+        speak.speak(0, "Zeliha... Munise...", 1);
+        speak.speak(0, "Salgın nasıl bu kadar çabuk", 1);
+        speak.speak(0, "YERDEKİ KAN MI?", 1);
+        speak.speak(0, "SEN NE YAPTIN!", 1);
+        speak.speak(3, "İlaçları ver bana", 1);
+        speak.speak(3, ";", 1);
+
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            player = other.gameObject;
             isInTrigger = true;
             StartFadeIn(); // Oyuncu alanın içine girdiğinde sprite'ı göster
             Debug.Log("player in triggerenter.");
