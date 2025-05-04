@@ -43,6 +43,8 @@ public class InteractionDoor : MonoBehaviour
                     }
                 }
             }
+
+            this.GetComponent<AudioSource>().Play();
         }
     }
 

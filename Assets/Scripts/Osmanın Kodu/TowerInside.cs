@@ -60,6 +60,7 @@ public class TowerInside : MonoBehaviour
                 }
                 else if (altkapi)
                 {
+                    this.GetComponent<AudioSource>().Play();
                     for (int i = 0; i < aktif.Count; i++)
                     {
                         aktif[i].SetActive(true);

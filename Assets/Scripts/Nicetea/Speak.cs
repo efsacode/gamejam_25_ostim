@@ -156,13 +156,11 @@ public class Speak : MonoBehaviour
                 speak(3, "Teşekkür ederim.", 1);
                 speak(3, "İlacı ilerideki kulenin içinden bulabilirsin.", 2);
                 speak(0, "Teşekkür ederim.", 1);
-                speak(0, "Hemen almaya gidiyorum", 1);
+               
                 break;
             case (1):
-                speak(3, "tamam be. ilaç ilerideki kulenin içinde diye duydum.", 1);
-                speak(3, "bana da getireceksin dimi?", 2);
-                speak(0, "tabiki abi getircem.", 1);
-                speak(3, "yalancı...", 1);
+                speak(3, "Tepedeki kulede merhem var. Ama bana da getir, anlaşmamız bu kadar.", 1);
+                
                 break;
         }
     }

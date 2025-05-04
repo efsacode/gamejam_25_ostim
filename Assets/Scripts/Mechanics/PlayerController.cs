@@ -140,6 +140,8 @@ namespace Platformer.Mechanics
             animator.SetBool("grounded", IsGrounded);
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
+            this.GetComponent<AudioSource>().enabled = (Mathf.Abs(velocity.x) / maxSpeed > 0.001);
+
             targetVelocity = move * maxSpeed;
         }
 
