@@ -5,7 +5,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using Platformer.Mechanics; // Make sure to include the namespace
-
+using UnityEngine.SceneManagement;
 
 public class Speak : MonoBehaviour
 {
@@ -73,14 +73,17 @@ public class Speak : MonoBehaviour
         canvas.SetActive(true);
         float pluspitch = Pitches[index];
         GameObject audioprefab = Sounds[index];
+        Debug.Log(text);
         //Debug.Log("foroncesi");
         if (text.Contains(";"))
         {
-            audioprefab = Sounds[Sounds.Count-1];
-            GameObject audio = Instantiate(audioprefab);
-            AudioSource tempaudio = audio.GetComponent<AudioSource>();
+            if (buttonvalues[1]) {
+                audioprefab = Sounds[Sounds.Count - 1];
+                GameObject audio = Instantiate(audioprefab);
+                AudioSource tempaudio = audio.GetComponent<AudioSource>();
 
-            tempaudio.Play();
+                tempaudio.Play(); 
+            }
             CharactersUi[index].SetActive(false);
             Dialog.RemoveAt(0);
             Indexes.RemoveAt(0);
@@ -90,76 +93,92 @@ public class Speak : MonoBehaviour
             canvas.SetActive(false);
 
             yield return new WaitForSeconds(1);
-            yield break;
-        }
+            float dimtimer = 0;
+            GameObject dim = GameObject.Find("DimObject");
+            canvas.SetActive(false);
+            yield return new WaitForSeconds(1);
 
-        for (int i = 0; i < text.Length; i++)
-        {
-            yield return null;
-            //Debug.Log("yenikod");
-            if (!(text[i] == '/'))
-                speechtext.text += text[i];
-            else
+            while (dimtimer < 1)
             {
-                //Debug.Log("yenikod else");
-                waitforbutton = true;
-                for (int b = 0; b < Buttons.Count; b++)
-                {
-                    Buttons[b].SetActive(true);
-                    
-                }
-            }
-            //Debug.Log("ifustu");
-            //Time.timeScale = 0;
-            if (seslistesi.Contains(text[i])) // Check if the character is a vowel
-            {
-                GameObject audio = Instantiate(audioprefab);
-                AudioSource tempaudio = audio.GetComponent<AudioSource>();
-                tempaudio.pitch = pluspitch + Array.IndexOf(seslistesi, text[i]) / 150f;
-
-                tempaudio.Play();
-                yield return new WaitForSecondsRealtime(0.08f);
-                StartCoroutine(deleteAudioSource(audio));
-            }
-
-            if (text[i] == ' ')
-            {
-                yield return new WaitForSecondsRealtime(0.16f);
-            }
-            else if (text[i] == ',')
-            {
-                yield return new WaitForSecondsRealtime(0.3f);
-            }
-            else if (text[i] == '.' || text[i] == '?' || text[i] == '!')
-            {
-                yield return new WaitForSecondsRealtime(0.4f);
-            }
-            //Debug.Log("whileoncesi");
-            if(Buttons != null)
-                Buttonhold = Buttons;
-            while (waitforbutton) { 
+                dimtimer += Time.deltaTime;
                 yield return null;
+                dim.GetComponent<SpriteRenderer>().color = new Color32(0, 0, 0, (byte)(dimtimer * 255));
             }
-            if (Buttonhold != null)
+            yield return new WaitForSeconds(0.4f);
+            SceneManager.LoadScene("CreditsScene");
+        }
+        else
+        {
+
+            for (int i = 0; i < text.Length; i++)
             {
-                for (int b = 0; b < Buttonhold.Count; b++)
+                yield return null;
+                //Debug.Log("yenikod");
+                if (!(text[i] == '/'))
+                    speechtext.text += text[i];
+                else
                 {
-                    Buttonhold[b].SetActive(false);
+                    //Debug.Log("yenikod else");
+                    waitforbutton = true;
+                    for (int b = 0; b < Buttons.Count; b++)
+                    {
+                        Buttons[b].SetActive(true);
+
+                    }
+                }
+                //Debug.Log("ifustu");
+                //Time.timeScale = 0;
+                if (seslistesi.Contains(text[i])) // Check if the character is a vowel
+                {
+                    GameObject audio = Instantiate(audioprefab);
+                    AudioSource tempaudio = audio.GetComponent<AudioSource>();
+                    tempaudio.pitch = pluspitch + Array.IndexOf(seslistesi, text[i]) / 150f;
+
+                    tempaudio.Play();
+                    yield return new WaitForSecondsRealtime(0.08f);
+                    StartCoroutine(deleteAudioSource(audio));
+                }
+
+                if (text[i] == ' ')
+                {
+                    yield return new WaitForSecondsRealtime(0.16f);
+                }
+                else if (text[i] == ',')
+                {
+                    yield return new WaitForSecondsRealtime(0.3f);
+                }
+                else if (text[i] == '.' || text[i] == '?' || text[i] == '!')
+                {
+                    yield return new WaitForSecondsRealtime(0.4f);
+                }
+                //Debug.Log("whileoncesi");
+                if (Buttons != null)
+                    Buttonhold = Buttons;
+                while (waitforbutton)
+                {
                     yield return null;
                 }
-                Buttonhold = null;
-            }
+                if (Buttonhold != null)
+                {
+                    for (int b = 0; b < Buttonhold.Count; b++)
+                    {
+                        Buttonhold[b].SetActive(false);
+                        yield return null;
+                    }
+                    Buttonhold = null;
+                }
 
+            }
+            yield return new WaitForSeconds(waittime);
+            CharactersUi[index].SetActive(false);
+            Dialog.RemoveAt(0);
+            Indexes.RemoveAt(0);
+            endwaittimes.RemoveAt(0);
+            speechtext.text = "";
+            isSpeaking = false;
+            canvas.SetActive(false);
+            yield return new WaitForSeconds(0.2f);
         }
-        yield return new WaitForSeconds(waittime);
-        CharactersUi[index].SetActive(false);
-        Dialog.RemoveAt(0);
-        Indexes.RemoveAt(0);
-        endwaittimes.RemoveAt(0);
-        speechtext.text = "";
-        isSpeaking = false;
-        canvas.SetActive(false);
-        yield return new WaitForSeconds(0.2f);
     }
     public IEnumerator deleteAudioSource(GameObject target)
     {
@@ -175,17 +194,17 @@ public class Speak : MonoBehaviour
         {
             case (0):
                 speak(3, "Teşekkür ederim Muzaffer Bey!", 1);
-                speak(3, "İlerideki terkedilmiş kulenin içinde olabilir. Kapısı kilitli olduğu için tırmanman gerekir.", 2);
-                speak(0, "Tamamdır Oduncu Efendi", 1);
-               
+                speak(3, "İlerideki terkedilmiş kulenin içinde olabilir.", 2);
+                
+
                 break;
             case (1):
-                speak(3, "Terkedilmiş kulenin içinde var. Bana da getir!", 1);
-                
+                speak(3, "Terkedilmiş kulenin içinde var. Ama sonra... komşuyu unutursan, bazı şeyler bozulur. Bu zamanlarda kimseyi kızdırmamak gerek", 1);
+
                 break;
             case (4):
                 speak(3, "Güzel...", 1);
-                speak(3, "İlacı bana ver Muzaffer!?", 2);
+                speak(3, "İlacı bana ver Muzaffer!", 2);
                 speak(0, "Hayır! Kızımın bu ilaca ihtiyacı var veremem.", 1);
                 speak(3, "Kızın...", 1);
                 speak(3, "Artık ilaca ihtiyacı yok Muzaffer!", 1);
@@ -215,6 +234,14 @@ public class Speak : MonoBehaviour
                 speak(3, "Baktığın için sağolasın Muzaffer Bey.", 2);
                 leveltostart.SetActive(true);
                 leveltoclose.SetActive(false);
+                break;
+            case (8):
+                speak(0, "Özür dilerim kızım.", 1);
+                speak(0, ";", 1);
+                break;
+            case (9):
+                speak(0, "Özür dilerim Zeliha.", 1);
+                speak(0, ";", 1);
                 break;
 
         }

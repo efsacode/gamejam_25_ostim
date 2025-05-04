@@ -1,6 +1,4 @@
-using UnityEditor.UI;
 using UnityEngine;
-using UnityEngine.Splines.Interpolators;
 
 public class credits : MonoBehaviour
 {

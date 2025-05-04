@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using OpenCover.Framework.Model;
-using System.Threading;
+
 
 public class InteractionDoor : MonoBehaviour
 {

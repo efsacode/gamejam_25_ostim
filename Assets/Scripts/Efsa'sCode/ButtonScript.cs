@@ -47,7 +47,7 @@ public class ButtonScript : MonoBehaviour
             Debug.Log("burda");
         }
         
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameScene");
     }
 
     public void GoToCredit()
