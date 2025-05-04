@@ -19,10 +19,12 @@ public class Speak : MonoBehaviour
 
     public TextMeshProUGUI speechtext;
     public GameObject canvas;
+    public GameObject leveltostart;
+    public GameObject leveltoclose;
 
-    private List<string> Dialog = new();
-    private List<int> Indexes = new();
-    private List<float> endwaittimes = new();
+    public List<string> Dialog = new();
+    public List<int> Indexes = new();
+    public List<float> endwaittimes = new();
     private bool isSpeaking = false;
     private bool waitforbutton = false;
     char[] seslistesi = { 'o', 'O', 'u', 'U', 'a', 'A', 'ı', 'I', 'ö', 'Ö', 'i', 'İ', 'e', 'E', 'ü', 'Ü' };
@@ -198,6 +200,21 @@ public class Speak : MonoBehaviour
                 speak(3, "İçeri girip kendin bak.", 2);
                 speak(3, "Bu arada", 2);
                 speak(3, "Yalan söylemek hiç hoş değil.", 1);
+                break;
+            case (6):
+                //iki ilaç buldu ve komşuya bir tanesini paylaşıcak
+                speak(3, "Kaç tane ilaç bulabildin.", 1);
+                speak(0, "2 tane vardı sadece.", 2);
+                speak(3, "O zaman paylaşalım ilaçları", 2);
+                speak(0, "Aynen birini sana getirdim abi.", 1);
+                break;
+
+            case (7):
+                speak(3, "Hadi ya...", 1);
+                speak(3, "Bu hastalıktan herkes gebericek.", 2);
+                speak(3, "Baktığın için sağol.", 2);
+                leveltostart.SetActive(true);
+                leveltoclose.SetActive(false);
                 break;
 
         }

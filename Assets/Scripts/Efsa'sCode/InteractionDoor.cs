@@ -53,9 +53,9 @@ public class InteractionDoor : MonoBehaviour
                     player.SetActive(false);
                     StartCoroutine(pt2_1Woodman());
                 }
+                this.GetComponent<AudioSource>().Play();
             }
-
-            this.GetComponent<AudioSource>().Play();
+            
         }
     }
 

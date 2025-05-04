@@ -18,6 +18,7 @@ public class TowerInside : MonoBehaviour
     public bool isInTrigger = false;
     private Coroutine fadeCoroutine;
     bool clicked = false;
+    public List<GameObject> Levels = new();
 
     void Start()
     {
@@ -69,8 +70,22 @@ public class TowerInside : MonoBehaviour
                     {
                         deaktif[i].SetActive(false);
                     }
+                    Speak speak = GameObject.Find("TalkingObject").GetComponent<Speak>();
+                    if (speak.buttonvalues[0])
+                    {
+                        Levels[0].SetActive(false);
+                        Levels[1].SetActive(false);
+                        Levels[2].SetActive(true);
+                        Levels[3].SetActive(false);
+                    }
+                    else if (speak.buttonvalues[1])
+                    {
+                        Levels[0].SetActive(false);
+                        Levels[1].SetActive(true);
+                        Levels[2].SetActive(false);
+                        Levels[3].SetActive(false);
+                    }
                 }
-
             }
         }
     }

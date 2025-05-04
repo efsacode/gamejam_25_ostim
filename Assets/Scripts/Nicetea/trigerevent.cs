@@ -12,6 +12,9 @@ public class trigerevent : MonoBehaviour
     public List<int> Indexes = new();
     public List<float> endwaittimes;
     public List<GameObject> Buttons = new();
+
+    public int extraevent = 0;
+    public List<GameObject> extraitems = new();
     void Start()
     {
         
@@ -35,6 +38,15 @@ public class trigerevent : MonoBehaviour
                     speak.speak(Indexes[i], Dialog[i], endwaittimes[i], null);
             }
             done = true;
+            switch (extraevent)
+            {
+                case (1):
+                    for(int i = 0; i < extraitems.Count; i++)
+                    {
+                        extraitems[i].SetActive(false);
+                    }
+                    break;
+            }
         }
     }
 }
