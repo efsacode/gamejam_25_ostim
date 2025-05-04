@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 580d84ee46b5c4843bb41eab742e55f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8848439068537748156
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_0"
+  - first:
+      213: 1195055202573066669
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_1"
+  - first:
+      213: -2008930876761869350
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_2"
+  - first:
+      213: -252514400184592660
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_3"
+  - first:
+      213: 5547538037323611388
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_4"
+  - first:
+      213: 5558795299127303526
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_5"
+  - first:
+      213: -306863802816559273
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_6"
+  - first:
+      213: 7174498787263642882
+    second: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_7"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_0"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 269
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4458e175c87043580800000000000000
+      internalID: -8848439068537748156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_1"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1a9540060b59010800000000000000
+      internalID: 1195055202573066669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_2"
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 268
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad37b48e208de14e0800000000000000
+      internalID: -2008930876761869350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_3"
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 269
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6935cad73ee7cf0800000000000000
+      internalID: -252514400184592660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_4"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 269
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc34ace370dcfc40800000000000000
+      internalID: 5547538037323611388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_5"
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 269
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d189f6fdec42d40800000000000000
+      internalID: 5558795299127303526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_6"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 196
+        width: 256
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75781b64ffccdbbf0800000000000000
+      internalID: -306863802816559273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_7"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 196
+        width: 150
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20df15882a0f09360800000000000000
+      internalID: 7174498787263642882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_0": -8848439068537748156
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_1": 1195055202573066669
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_2": -2008930876761869350
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_3": -252514400184592660
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_4": 5547538037323611388
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_5": 5558795299127303526
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_6": -306863802816559273
+      "Sosyal_Medya_ve_\u0130nstagram_\xD6ne_\xC7\u0131kar\u0131lanlar_\u0130kon_Tasar\u0131m\u0131__14_-removebg-preview_7": 7174498787263642882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
