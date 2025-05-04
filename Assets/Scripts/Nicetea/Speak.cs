@@ -174,45 +174,45 @@ public class Speak : MonoBehaviour
         switch (index)
         {
             case (0):
-                speak(3, "Teşekkür ederim.", 1);
-                speak(3, "İlacı ilerideki kulenin içinden bulabilirsin.", 2);
-                speak(0, "Teşekkür ederim.", 1);
+                speak(3, "Teşekkür ederim Muzaffer Bey!", 1);
+                speak(3, "İlerideki terkedilmiş kulenin içinde olabilir. Kapısı kilitli olduğu için tırmanman gerekir.", 2);
+                speak(0, "Tamamdır Oduncu Efendi", 1);
                
                 break;
             case (1):
-                speak(3, "Tepedeki kulede merhem var. Ama bana da getir, anlaşmamız bu kadar.", 1);
+                speak(3, "Terkedilmiş kulenin içinde var. Bana da getir!", 1);
                 
                 break;
             case (4):
                 speak(3, "Güzel...", 1);
-                speak(3, "İlaçları bana verir misin?", 2);
-                speak(0, "Kızımın ilaca ihtiyacı var veremem", 1);
+                speak(3, "İlacı bana ver Muzaffer!?", 2);
+                speak(0, "Hayır! Kızımın bu ilaca ihtiyacı var veremem.", 1);
                 speak(3, "Kızın...", 1);
-                speak(3, "Artık ilaca ihtiyacı yok sanırım.", 1);
+                speak(3, "Artık ilaca ihtiyacı yok Muzaffer!", 1);
                 speak(0, "Ne.. Na-. Nasıl yani?", 1);
                 speak(3, "İçeri girip kendin bak.", 2);
                 break;
             case (5):
-                speak(3, "Hmm... İlaç olmaması kötü olmuş.", 1);
+                speak(3, "İlaç olabileceğini düşünmüştüm.", 1);
                 speak(3, "Ama üzülmene gerek yok.", 2);
                 speak(3, "Artık ilaca ihiyacın kalmadı", 1);
                 speak(0, "Ne.. Na-. Nasıl yani?", 1);
                 speak(3, "İçeri girip kendin bak.", 2);
                 speak(3, "Bu arada", 2);
-                speak(3, "Yalan söylemek hiç hoş değil.", 1);
+                speak(3, "Yalan söylediğini biliyorum!", 1);
                 break;
             case (6):
                 //iki ilaç buldu ve komşuya bir tanesini paylaşıcak
-                speak(3, "Kaç tane ilaç bulabildin.", 1);
-                speak(0, "2 tane vardı sadece.", 2);
-                speak(3, "O zaman paylaşalım ilaçları", 2);
-                speak(0, "Aynen birini sana getirdim abi.", 1);
+                speak(3, "İlaç bulabildin mi kulenin içinde?", 1);
+                speak(0, "Evet. 2 tane bulabildim Oduncu Efendi", 2);
+                speak(3, "O zaman bir tanesini alabilirim.", 2);
+                speak(0, "Evet. Geçmiş olsun Oduncu Efendi!", 1);
                 break;
 
             case (7):
-                speak(3, "Hadi ya...", 1);
-                speak(3, "Bu hastalıktan herkes gebericek.", 2);
-                speak(3, "Baktığın için sağol.", 2);
+                speak(3, "Tüh be! Bulabileceğini düşünmüştüm.", 1);
+                speak(3, "Bu salgın herkesi öteki dünyayla tanıştıracak.", 2);
+                speak(3, "Baktığın için sağolasın Muzaffer Bey.", 2);
                 leveltostart.SetActive(true);
                 leveltoclose.SetActive(false);
                 break;
